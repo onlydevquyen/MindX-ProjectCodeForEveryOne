@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+            />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header id="header">
+            <div id="header-container">
+                <div id="header-menu" class="header-menu">
+                    <div class="dropdown" id="home">
+                        <button onclick="goToHome()" class="btn btn-secondary dropdown-toggle"
+                            type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </button>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/index.html#decorate-themes">Decorate Themes</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/index.html#bestseller">Bestseller</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/index.html#collections">Collections</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown" id="shop">
+                            <button onclick="goToShop()" class="btn btn-secondary dropdown-toggle"
+                                type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </button>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5500/Shop.html#shop-product">All Categories</a></li>
+                            <li><a class="dropdown-item" href="#footer">Get Disscont</a></li>
+                        </ul>
+                    </div>
+                    <div><button id="about-us" onclick="goToAboutUs()">About Us</button></a></div>
+                    <div id="menu-button" class="menu-button" onclick="changeButtonMenu(this)">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                        <div id="menu-button-dropdown">
+                            <div><a href="index.html">Home</a></div>
+                            <hr>
+                            <div><a href="http://127.0.0.1:5500/Shop.html"></a>Shop</div>
+                            <hr>
+                            <div><a href="AboutUs.html">About Us</a></div>
+                        </div>
+                    </ul>
+                    </div>
+
+                </div>
+                <h1><a href="index.html">Dekorare</a></h1>
+                <div class="dropdown">
+                    <div class="search-box" id="search-box">
+                        <button id="search-product-button" onclick="
+                            getDataSearchProduct()"><i
+                                class="material-symbols-outlined">search</i></button>
+                        <input type="text" id="search-product" onmouseover="exData()"
+                             placeholder="Search in shop">
+                    </div>
+                    <ul id="header-dropdown-ex" class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1">
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="infomation-logo">
+                <h2 class="logo">Dekorare</h2>
+                <p class="slogan">Thanks for believing !</p>
+                <div class="infomation-main">
+                    <h3>PRESTIGE INTERIOR DESIGN COMPANY</h3>
+                    <p>In recent years, Vietnam's housing market has become
+                        increasingly active, leading to an increase in demand
+                        for
+                        interior design services. Therefore, there have been
+                        many
+                        interior design companies born, and DEKORARE Joint-stock
+                        Company is one of them.</p>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <img id="img1" src="img/2.jpg" alt="Decoration">
+                <div class="content-top-text">
+                    <h4>GENERAL INTRODUCTION</h4>
+                    <br>
+                    <p>
+                        Compared to many other interior design
+                        companies,
+                        DEKORARE
+                        does not have as long a history as the company
+                        was
+                        only
+                        established on January 16, 2020. However, this
+                        is
+                        not a
+                        weakness, but on the contrary, it is also our
+                        strength.
+                        Since we were established later, we can learn
+                        and
+                        draw a lot
+                        of experience and valuable lessons about
+                        interior
+                        design.
+                        From there, build and improve our services, to
+                        bring
+                        customers the most outstanding benefits.
+                        DEKORARE is
+                        a unit
+                        specializing in providing full-service design
+                        and
+                        construction turnkey, with exclusive design
+                        solutions by
+                        professional architects. The solutions provided
+                        by
+                        us are
+                        highly flexible and applicable, ensuring no
+                        additional costs
+
+                    </div>
+                    <div class="content-bottom-text">
+                        In particular, DEKORARE is also a unit that directly
+                        processes furniture products with a factory invested in
+                        modern machinery and equipment, creating quality,
+                        meticulous and high-precision products. We are proud to
+                        be the unit in charge of interior design for the largest
+                        real estate corporations in Vietnam: Ecopark, Sunshine
+                        Group, TTC Land, Thinh Gia, Quoc Cuong Gia Lai... In
+                        addition, DEKORARE has designed and executed for more
+                        than 100+ high-class apartment projects.
+                    </div>
+                    <img id="img2" src="img/1.jpg" alt="Decoration">
+                </div>
+            </section>
+            <section>
+                <div class="commit">
+                    <div class="commit-content">
+                        <div class="commit-content-content">
+                            <h3>Dekorare</h3>
+                            <h2>Commit</h2>
+                            <p>DEKORARE always makes constant efforts to
+                                understand
+                                customers, capture new design trends, commit to
+                                bringing
+                                partners and customers perfect and quality
+                                works.
+                                Convinced that with its professionalism and
+                                constant
+                                efforts, DEKORARE will become the number 1
+                                choice in
+                                the
+                                hearts of customers when there is a need to use
+                                design
+                                services, interior construction and project
+                                perspective
+                                visualization.</p>
+                        </div>
+                        <i class="fa fa-angle-double-right"></i>
+                        <div class="commit-card">
+                            <div class="card_about">
+                                <div class="card-item">
+                                    <img
+                                        src="img/f4971960f6c5bf0b9fa2b9bf60443f66.jpg"
+                                        alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Modern Decoration</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/5.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Vintage Kitchen</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/6.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Luxury Bancony</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/7.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Decor Modern 4k</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/8.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Built-in bedroom</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/9.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Convenient Balcony Relax</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/10.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Retro 2000</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="card-item">
+                                    <img src="img/4.jpg" alt="Decoration">
+                                    <div class="card-details">
+                                        <h1>Neoclassical Kitchen</h1>
+                                        <p>Lorem ipsum dolor sit amet
+                                            consectetur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="contact-with-us">
+                    <div class="contact-icons">
+                        <a href="https://www.facebook.com/uynwiin2502.03"><i
+                                class="fa fa-facebook-official"></i></a>
+                        <a href="https://github.com/Younggirlsitinh"> <i
+                                class="fa fa-github"></i></a>
+                        <a href="https://www.instagram.com/only.52hzblue/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href=""> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Contact With Us</h4>
+                        <p>Thanks for believing !</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="link">
+                    <h3>Link</h3>
+                    <a href="">Styler Inside</a>
+                    <a href="#header">About Us</a>
+                    <a href="">Company</a>
+                    <a href="">Careers</a>
+                    <a href="">Brands</a>
+                </div>
+                <hr>
+                <div class="payment">
+                    <h3>Payment</h3>
+                    <div class="payment-icons">
+                        <i class="fa fa-cc-visa"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                        <i class="fa fa-cc-amex"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="hotline-payment">
+                    <h5> <i class="fa fa-phone"></i>Hotline: 0889331154 -
+                        0859774418</h5>
+                    <h5> <i class=" fa fa-envelope"></i>Gmail: uynwiin@gmail.com</h5>
+                </div>
+                <hr>
+                <div id="register" class="register">
+                    <h4>Get a surprise discount by registering!</h4>
+                    <div class="form-e-mail-submit">
+                        <input type="text" id="e-mail-submit"
+                            placeholder="Your E-mail">
+                        <button id="e-mail-submit-button"
+                            onclick="getEmailSubmit()">Submit</button>
+                    </div>
+                </div>
+            </footer>
+        </body>
+        <script src="js/myscript.js"></script>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        </style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+            </style>
+    </html>
