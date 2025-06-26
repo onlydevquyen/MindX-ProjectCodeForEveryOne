@@ -272,13 +272,14 @@ section{
     height: 35rem;
     margin: 6rem 0 0 0;
     box-sizing: border-box;
-    background-image: url('https://dnudecor.vn/wp-content/uploads/2020/08/Bản_sao_của_Wartermark-1.png');
+    background-image: url('/img/about_us.jpg');
+    background-size: cover;
 }
 
 .commit-content {
     width: 40%;
     height: 100%;
-    background-color: rgba(124, 79, 72, 0.623);
+    background-color: rgba(128, 73, 64, 0.479);
     color: white;
     transition: 0.5s ease;
     display: flex;
@@ -359,7 +360,7 @@ section{
 
 .commit-content:hover {
     width: 100%;
-    background-color: rgb(133, 92, 86);
+    background-color: #56322dcc;
 }
 
 .commit-content:hover>.fa-angle-double-right {
@@ -387,8 +388,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem;
-    background-color: #161616;
+    padding: 2.5rem;
+    background-color: #252525;
     color: white;
 }
 
@@ -1523,4 +1524,10 @@ del{
         width: 7rem;
     }
 
+}
+
+.copy-right{
+    text-align: center;
+    color: white;
+    background: black;
 }

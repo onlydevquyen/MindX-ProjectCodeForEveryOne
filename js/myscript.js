@@ -364,15 +364,15 @@ function getDataProduct(id){
 
 
 function goToShop() {
-    window.location = "http://127.0.0.1:5500/Shop.html";
+    window.location = "/shop.html";
 }
 
 function goToAboutUs() {
-    window.location = "http://127.0.0.1:5500/AboutUS.html";
+    window.location = "/aboutus.html";
 }
 
 function goToHome() {
-    window.location = "http://127.0.0.1:5500/index.html";
+    window.location = "/index.html";
 }
 
 
