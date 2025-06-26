@@ -209,7 +209,7 @@ function changePage() {
 }
 changePage();
 
-function renderByClasstify(classtifyClick) {
+window.renderByClasstify = (classtifyClick) => {
     let sum = 0;
     let html = "";
     const content = product.map((item) => {
