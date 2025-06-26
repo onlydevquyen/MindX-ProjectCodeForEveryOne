@@ -201,7 +201,7 @@ function renderProduct() {
     const content = product.map((item, index) => {
         if (index >= start && index < end) {
             html += `<div id="${item.id}" class="col" onclick="getDataProduct(this.id)">
-                        <div class="detail-item"><a href = "http://127.0.0.1:5500/DetailProduct.html"><img src = ${item.image}></a>
+                        <div class="detail-item"><a href = "/detail_product.html"><img src = ${item.image}></a>
                             <div class="description"><h6>${item.title}</h6>
                                 <p><del>${(parseInt(item.price) + (parseInt(item.price) * 0.2))}.00$</del> ${item.price} </p>
                             </div>
@@ -262,7 +262,7 @@ function renderByClasstify(classtifyClick) {
     const content = product.map((item) => {
         if (item.classify.includes(classtifyClick)) {
             html += `<div class="col" onclick="getDataProduct(this.id)">
-                        <div class="detail-item"><a href = "http://127.0.0.1:5500/DetailProduct.html"><img src = ${item.image}></a>
+                        <div class="detail-item"><a href = "/detail_product.html"><img src = ${item.image}></a>
                             <div class="description"><h6>${item.title}</h6>
                                 <p><del>${(parseInt(item.price) + (parseInt(item.price) * 0.2))}.00$</del> ${item.price} </p>
                             </div>
@@ -310,7 +310,7 @@ function renderSearchProductShop() {
         const content = product.map((item) => {
             if (item.title.includes(dataSearchShop.value)) {
                 html += `<div class="col" onclick="getDataProduct(this.id)">
-                        <div class="detail-item"><a href = "http://127.0.0.1:5500/DetailProduct.html"><img src = ${item.image}></a>
+                        <div class="detail-item"><a href = "/detail_product.html"><img src = ${item.image}></a>
                             <div class="description"><h6>${item.title}</h6>
                                 <p><del>${(parseInt(item.price) + (parseInt(item.price) * 0.2))}.00$</del> ${item.price} </p>
                             </div>
