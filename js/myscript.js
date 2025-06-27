@@ -318,6 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("main-price").innerHTML = `<del>${
       parseInt(product[productId].price) + parseInt(product[productId].price) * 0.2
     }.00$</del> ${product[productId].price}`;
+    window.document.title = product[productId].title;
   }
 });
 
